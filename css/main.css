@@ -12,6 +12,10 @@ a,button{
   padding:15px 20px;
   transition: color 0.5s, background-color 0.5s;
   margin-right:-5px;
+  user-select:none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 nav > a{
   display:inline-block;
