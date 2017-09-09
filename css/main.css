@@ -32,5 +32,6 @@ nav{
 }
 #navfiller{
   height:100px;
+  position:relative;
   display:block;
 }
