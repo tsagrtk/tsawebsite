@@ -27,5 +27,9 @@ button:hover{
 }
 nav{
   position: fixed;
-  display:block;
+  display: block;
+  z-index:9999;
+}
+#navfiller{
+  height:100px;
 }
