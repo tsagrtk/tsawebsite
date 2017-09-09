@@ -28,9 +28,6 @@ button:hover{
 nav{
   position: fixed;
   display: inline-block;
+  margin-top:0px;
   z-index:9999;
-}
-#navfiller{
-  height:100px;
-  display:block;
 }
