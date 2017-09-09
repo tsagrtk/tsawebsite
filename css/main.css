@@ -13,6 +13,9 @@ a,button{
   transition: color 0.5s, background-color 0.5s;
   margin-right:-4px;
 }
+nav a{
+  display:inline-block;
+}
 a:hover{
   text-decoration: none;
   border:none;
