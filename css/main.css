@@ -25,3 +25,7 @@ button:hover{
   color:white;
   background-color:black;
 }
+nav{
+  position: fixed;
+  display:block;
+}
