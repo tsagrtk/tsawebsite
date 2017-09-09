@@ -11,6 +11,7 @@ a,button{
   color:black;
   padding:10px 16px;
   transition: color 0.5s, background-color 0.5s;
+  margin-right:-4px;
 }
 a:hover{
   text-decoration: none;
