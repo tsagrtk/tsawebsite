@@ -27,7 +27,7 @@ button:hover{
 }
 nav{
   position: fixed;
-  marign-top:-8px;
+  marign-top:8px;
   display: block;
   z-index:9999;
 }
