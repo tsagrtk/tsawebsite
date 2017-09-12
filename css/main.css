@@ -27,7 +27,7 @@ nav > a{
 }
 article{
   width:auto;
-  height:100%;
+  min-height:100%;
   padding:15px;
 }
 a:hover, button:hover{
