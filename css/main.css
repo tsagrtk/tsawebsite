@@ -36,11 +36,12 @@ a:hover, button:hover{
   color:white;
   background-color:black;
 }
-nav{
+header{
   position: fixed;
   display: block;
   margin-top:0px;
   z-index:9999;
-  top:0px;
-  left:0px;
+}
+nav{
+  float:right;
 }
