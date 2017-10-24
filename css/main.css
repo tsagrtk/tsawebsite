@@ -6,6 +6,7 @@ html,body{
   height:100%;
   margin: 0px;
   padding: 0px;
+  bakground-color:
 }
 h1{
  text-align:center; 
@@ -28,6 +29,7 @@ a.nav{
 article{
   width:auto;
   padding:15px;
+  color: ghostwhite;
 }
 a:hover, button:hover{
   text-decoration: none;
