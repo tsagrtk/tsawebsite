@@ -44,6 +44,17 @@ header{
   margin-top:0px;
   z-index:9999;
 }
-nav{
-  float:right;
-}
+         nav{
+            margin:100px 60px;
+         }
+
+         nav ul{
+          list-style: none;
+          margin: 0;
+
+         }
+         nav li{
+          float:left;
+          width:100px;
+          height:40px;
+         }
