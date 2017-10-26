@@ -7,14 +7,37 @@
     <script type="text/javascript" src="js/smooth_scrolling.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
     <title>Home</title>
+           <style type="text/css">
+         nav{
+            margin:100px 60px;
+         }
+
+         nav ul{
+          list-style: none;
+          margin: 0;
+
+         }
+         nav li{
+          float:left;
+          width:100px;
+          height:40px;
+         }
+
+       </style>
   </head>
   <body>
       <header>
         <nav>
           <a class="selected nav" href="index.html">Home</a>
-          <a class="nav" href="/pandc/">Pros and cons</a>
-          <a class="nav" href="/how/">How Cloud Works</a>
-          <a class="nav" href="/types/">Types</a>
+          <ul id="dropdown">           
+            <li>
+              <a href="#">Pros and Cons</a>
+            </li>
+            <li href="#">
+              <a href="#">Uses</a>
+            </li>
+            <li href="#"><a>Liabilities:</a></li>
+          </ul>
           <a class="nav"href="/leap/">Leap</a>
        </nav>
     </header>
