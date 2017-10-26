@@ -27,6 +27,7 @@ a.nav{
   display:inline-block;
 }
 article{
+  top: 15%;
   width:auto;
   padding:15px;
   border-radius: 50px;
