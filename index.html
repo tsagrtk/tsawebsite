@@ -6,6 +6,26 @@
     <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
     <script type="text/javascript" src="js/smooth_scrolling.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+    <script>
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown menu if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+    </script>
     <title>Home</title>
   </head>
   <body>
@@ -13,22 +33,17 @@
         <nav>
           <a href="index.html">Home</a>
           <a href="/pandc/">Pros and Cons</a>
-          <a href="/uses/">Uses</a>
-          <a href="/liabilities/">Liabilities:</a>
-          <a class="nav" href="/leap/">Leap</a>
-          <a class="selected nav" href="types.html">Types of Cloud</a>
-          <ul id="dropdown">           
-            <li>
-              <a href="/iaas/">IaaS</a>
-            </li>
-            <li>
-              <a href="/paas/">PaaS</a>
-            </li>
-            <li>
-              <a href="/saas/">SaaS</a>
-            </li>
-          </ul>
-          
+        	<a href="/uses/">Uses</a>
+        	<a href="/liabilities/">Liabilities:</a>
+        	<a class="nav"href="/leap/">Leap</a>
+        	<div class="dropdown">
+  		    <button onclick="myFunction()" class="dropbtn">Types Of Cloud</button>
+ 		      <div id="myDropdown" class="dropdown-content">
+    	  	<a href="#">PaaS</a>
+    	  	<a href="#">IaaS</a>
+    	  	<a href="#">SaaS</a>
+ 	      	</div>
+		      </div>
        </nav>
     </header>
     <div id="navfiller"></div>
