@@ -39,6 +39,7 @@ article{
             height: 40px;
             text-decoration: none;
             color: gray;
+            margin-left:-4px;
         }
         nav li a:hover {
             background-color: lightgray;
