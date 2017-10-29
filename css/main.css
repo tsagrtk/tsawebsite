@@ -31,6 +31,7 @@ article{
             height: 40px;
             line-height: 40px;
             text-align: center;
+            margin-left:-4px;
             position: relative;
             
         }
@@ -38,7 +39,6 @@ article{
             display: block;
             width: 160px;
             height: 40px;
-          margin-left:-4px;
             text-decoration: none;
             color: gray;
           
@@ -50,7 +50,6 @@ article{
             position: absolute;
             background-color:rgba(25,25,112,0.5);
             display: none;
-          margin-left:-1px;
         }
         nav ul.sub li ul.sub {
             top:0;
