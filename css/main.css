@@ -23,7 +23,6 @@ article{
             list-style: none;
             margin: 0;
             padding: 0;
-           margin-left:-4px;
    
         }
         nav li {
@@ -31,6 +30,7 @@ article{
             width: 160px;
             height: 40px;
             line-height: 40px;
+            margin-left:-4px;
             text-align: center;
             position: relative;
             
