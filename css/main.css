@@ -50,10 +50,6 @@ article{
             background-color:rgba(25,25,112,0.5);
             display: none;
         }
-       .sub a {
-         width: 160px;
-         height: 40px;
-        }
         nav ul.sub li ul.sub {
             top:0;
             left: 160px;
