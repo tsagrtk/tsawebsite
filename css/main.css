@@ -11,21 +11,6 @@ html,body{
 h1{
  text-align:center; 
 }
-a,button{
-  text-decoration: none;
-  border:none;
-  color:black;
-  padding:15px 20px;
-  transition: color 0.5s, background-color 0.5s;
-  margin-right:-5px;
-  user-select:none;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-}
-a.nav{
-  display:inline-block;
-}
 article{
   top: 30%;
   width:auto;
@@ -33,18 +18,7 @@ article{
   border-radius: 50px;
   background-color: white;
 }
-a:hover, button:hover{
-  text-decoration: none;
-  border:none;
-  color:white;
-  background-color:#00dcfb;
-}
-header{
-  position: fixed;
-  display: block;
-  margin-top:0px;
-  z-index:9999;
-}
+
          nav ul {
             list-style: none;
             margin: 0;
