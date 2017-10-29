@@ -45,6 +45,7 @@ article{
         }
         nav ul.sub {
             position: absolute;
+            background-color:rgba(25,25,112,0.5);
             display: none;
         }
         nav ul.sub li ul.sub {
