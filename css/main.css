@@ -47,7 +47,6 @@ article{
         }
         nav ul.sub {
             position: absolute;
-            margin-left:-2px;
             background-color:rgba(25,25,112,0.5);
             display: none;
         }
