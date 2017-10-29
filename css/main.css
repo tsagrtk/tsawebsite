@@ -67,7 +67,7 @@ header{
 .dropdown {
     position: relative;
     display: inline-block;
-	opacity: 0;
+	background-color: #3498db;
 }
 
 .dropdown-content {
