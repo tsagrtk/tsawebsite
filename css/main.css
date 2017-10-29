@@ -31,7 +31,7 @@ article{
             height: 40px;
             line-height: 40px;
             text-align: center;
-            position: relative;
+            position: fixed;
             
         }
         nav li a {
