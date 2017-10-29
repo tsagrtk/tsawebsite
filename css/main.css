@@ -67,6 +67,7 @@ header{
 .dropdown {
     position: relative;
     display: inline-block;
+	opacity: 0;
 }
 
 .dropdown-content {
@@ -86,9 +87,9 @@ header{
 }
 
 .dropdown-content a:hover {
-						text-decoration: none;
- 						border:none;
- 						color:white;
-  						background-color:#00dcfb}
+			text-decoration: none;
+ 			border:none;
+ 			color:white;
+  			background-color:#00dcfb}
 
 .show {display:block;}
