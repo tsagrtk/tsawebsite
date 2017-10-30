@@ -6,46 +6,27 @@
     <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
     <script type="text/javascript" src="js/smooth_scrolling.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
-    <script>
-    $(function(){
-        $(".main li").hover(
-            function(){
-                //$('ul.sub', this).slideDown(500);
-                //$('>ul.sub', this).slideDown(500);
-                $('>ul.sub:not(:animated)', this).slideDown(500);
-            },
-            function(){
-                //$('ul.sub',this).slideUp(300);
-                $('>ul.sub',this).slideUp(300);
-            }
-        );
-    });
-    </script>
     <title>Home</title>
   </head>
   <body>
       <header>
-	<nav>
-	    <ul class="main">
-		  <li><a href="#">Home</a></li>
-		<li>
-		    <a href="#">Cloud</a>
-		    <ul class="sub">
-			<li><a href="#">Uses</a></li>
-			<li><a href="#">Benefits</a></li>
-			<li><a href="#">Challenges</a></li>
-			<li><a href="#">Liabilities</a></li>
-		    </ul>
-		</li>
-		<li>
-		    <a href="#">Requirements</a>
-		    <ul class="sub">
-			<li><a href="#">Leap</a></li>
-			<li><a href="#">Resource</a></li>
-		    </ul>
-		</li>
-	    </ul>
-	</nav>
+	
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="/pandc/">Pros and Cons</a>
+        	<a href="/uses/">Uses</a>
+        	<a href="/liabilities/">Liabilities:</a>
+        	<a class="nav"href="/leap/">Leap</a>
+        	<div class="dropdown">
+  		    <button onclick="myFunction()" class="dropbtn">Types Of Cloud</button>
+ 		      <div id="myDropdown" class="dropdown-content">
+    	  	<a href="#">PaaS</a>
+    	  	<a href="#">IaaS</a>
+    	  	<a href="#">SaaS</a>
+ 	      	</div>
+		      </div>
+       </nav>
+
     </header>
     <div id="navfiller"></div>
     <article>
