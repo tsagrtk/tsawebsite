@@ -62,7 +62,7 @@ a {
 .show {
        display:block;
 }
-h1, header{
+h1.head{
 	text-align: "center"; 
 	color: white;
 }
