@@ -56,7 +56,7 @@ a.dropdown-content:hover {
 						text-decoration: none;
  						border:none;
  						color:white;
-  						background-color:#00dcfb;
+  						background-color:#ffffff;
 }
 
 .show {
@@ -64,5 +64,5 @@ a.dropdown-content:hover {
 }
 h1{
 	text-align: "center"; 
-	color: "white";
+	color:white;
 }
