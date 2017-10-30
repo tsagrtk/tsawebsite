@@ -52,7 +52,7 @@ article{
     display: block;
 }
 
-a.dropdown-content:hover {
+a {
 						text-decoration: none;
  						border:none;
  						color:white;
