@@ -69,4 +69,7 @@ h1, header{
 a {
 	text-decoration: none;
 }
-	
+a:hover {
+    color: white;
+	background-color: #00dcfb;
+}
