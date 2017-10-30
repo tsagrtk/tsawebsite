@@ -66,8 +66,7 @@ h1, header{
 	text-align: "center"; 
 	color: white;
 }
-a,nav: hover {
-	background-color:#00dcfb;
-	color: white;
+a {
+	text-decoration: none;
 }
 	
