@@ -52,11 +52,12 @@ article{
     display: block;
 }
 
-.dropdown-content a:hover {
+a.dropdown-content:hover {
 						text-decoration: none;
  						border:none;
  						color:white;
-  						background-color:#00dcfb}
+  						background-color:#00dcfb;
+}
 
 .show {
        display:block;
