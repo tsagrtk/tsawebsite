@@ -53,10 +53,9 @@ article{
 }
 
 a {
-						text-decoration: none;
- 						border:none;
- 						color:white;
-  						background-color: #00dcfb;
+  text-decoration: none;
+  border:none;
+  color:white;
 }
 
 .show {
