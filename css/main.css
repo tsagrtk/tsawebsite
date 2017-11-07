@@ -75,5 +75,5 @@ button:hover	{
 		background: none;
 }
 div	{
-	display: inline;
+	display: inline-block;
 }
