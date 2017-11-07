@@ -27,7 +27,6 @@ article{
 .dropdown-content a {
     color: white;
     text-decoration: none;
-    display: block;
 }
 
 .dropdown:hover {background-color: #00dcfb}
