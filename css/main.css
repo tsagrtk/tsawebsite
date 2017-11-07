@@ -32,8 +32,8 @@ article{
 .dropdown:hover {background-color: #00dcfb}
 
 .dropdown:hover .dropdown-content {
-    position:absolute;
-    display: inline-block;
+    position: relative;
+    display: block;
 }
 
 nav a, nav d.dropdown {
