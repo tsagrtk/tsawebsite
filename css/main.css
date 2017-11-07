@@ -33,7 +33,7 @@ article{
 
 .dropdown:hover .dropdown-content {
     position:absolute;
-    display: block;
+    display: block !important;
 }
 
 nav a, .dropdown {
