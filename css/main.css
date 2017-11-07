@@ -36,12 +36,11 @@ article{
     display: block;
 }
 
-nav a, nav d.dropdown {
+nav a, .dropdown {
   text-decoration: none;
   border:none;
   color:white;
   padding:10px;
-	display: inline;
 }
 
 .show {
