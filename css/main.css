@@ -19,7 +19,6 @@ article{
 }
 .dropdown-content {
     display: inline-block;
-    position: absolute;
     background-color: #58c0ff;
     min-width: 160px;
     z-index: 1;
@@ -34,7 +33,7 @@ article{
 .dropdown-content a:hover {background-color: #00dcfb}
 
 .dropdown:hover .dropdown-content {
-    display: inline;
+    display: block;
 }
 
 nav a, nav d.dropdown {
