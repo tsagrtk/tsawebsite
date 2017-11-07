@@ -36,7 +36,7 @@ article{
     display: block;
 }
 
-nav a, nav d.dropdown {
+nav a, nav {
   text-decoration: none;
   border:none;
   color:white;
