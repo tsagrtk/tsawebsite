@@ -28,7 +28,9 @@ article{
     color: white;
     text-decoration: none;
 }
-
+.dropdown{
+    display:inline-block;
+}
 .dropdown:hover {background-color: #00dcfb}
 
 .dropdown:hover .dropdown-content {
