@@ -34,7 +34,7 @@ article{
 .dropdown-content a:hover {background-color: #00dcfb}
 
 .dropdown:hover .dropdown-content {
-    display: block;
+    display: inline;
 }
 
 nav a, nav d.dropdown {
@@ -75,5 +75,5 @@ button:hover	{
 		background: none;
 }
 div	{
-	display: inline-block;
+	display: inline;
 }
