@@ -83,3 +83,8 @@ button:hover	{
 nav	{
 	background-color: #58c0ff;
 	position: fixed;
+}
+nav a	{
+	left-margin: 5%;
+	right-margin: 5%;
+}
