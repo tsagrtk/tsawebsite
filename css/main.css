@@ -80,4 +80,6 @@ button:hover	{
 .drop	{
 	display: block;
 }
-
+nav	{
+	background-color: #58c0ff;
+	position: fixed;
