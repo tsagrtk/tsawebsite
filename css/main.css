@@ -80,3 +80,6 @@ button:hover	{
 .drop	{
 	display: block;
 }
+nav	{
+	position: fixed;
+}
