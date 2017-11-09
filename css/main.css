@@ -77,3 +77,6 @@ button:hover	{
 		border: none;
 		background: none;
 }
+.drop	{
+	display: block
+}
