@@ -4,8 +4,10 @@ html,body{
   height:100%;
   margin: 0px;
   padding: 0px;
-  background-color: #58c0ff;
-	font-family: arial;
+background-color: #58c0ff;
+}
+header	{
+	background-color: #58c0ff;
 }
 h1{
  text-align:center; 
