@@ -18,8 +18,9 @@ h1{
  text-align:center; 
 }
 article{
-  top: 60%;
+  top: 30%;
   width:auto;
+  margin-top:780px;
   padding:15px;
   background-color: white;
 }
