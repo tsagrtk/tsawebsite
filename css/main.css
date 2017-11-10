@@ -14,13 +14,14 @@ html,body{
 	background-size: cover;
 	margin:0;
 }
+
 h1{
  text-align:center; 
 }
 article{
   top: 30%;
   width:auto;
-  margin-top:780px;
+  margin-top:480px;
   padding:15px;
   background-color: white;
 }
