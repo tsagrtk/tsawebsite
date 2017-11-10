@@ -8,6 +8,9 @@ html,body{
   padding: 0px;
   background-color: #58c0ff;
 }
+.background{
+	background: url(20171110_132230.jpg) no-repeat center center fixed;
+}
 h1{
  text-align:center; 
 }
