@@ -21,7 +21,7 @@ h1{
 }
 nav{
   text-align: left;
-  float:right;
+  margin-right:30px;
 }
 header{
   background-color:rgba(47,79,79,0.4);
@@ -73,7 +73,6 @@ nav a, .dropdown {
   border:none;
   color:white;
   padding:10px;
-  text-align:center;
 }
 
 .show {
