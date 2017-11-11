@@ -21,9 +21,7 @@ h1{
 }
 nav{
   text-align: left;
-  position:absolute;
-  top:0px;
-  right:0px;
+  float:right;
 }
 header{
   background-color:rgba(47,79,79,0.4);
