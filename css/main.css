@@ -73,6 +73,7 @@ nav a, .dropdown {
   border:none;
   color:white;
   padding:10px;
+  text-align:center;
 }
 
 .show {
