@@ -30,6 +30,9 @@ header{
   width:100%;
   padding:10px 0;
 }
+.background{
+	padding:1000px;
+}
 #title{
   color:white;
   margin:0px;
