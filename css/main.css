@@ -23,6 +23,8 @@ nav{
   text-align: left;
   float:right;
   margin:0px;
+  display:inline-block;
+  margin-right: 10px;
 }
 header{
   background-color:rgba(47,79,79,0.4);
