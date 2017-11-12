@@ -32,7 +32,8 @@ header{
 }
 .background{
   padding:276.2px;
-  background-color: rgba(100,100,100,0.5);
+  background-color: rgba(150,150,150,0.5);
+  color:white;
 }
 #title{
   color:white;
