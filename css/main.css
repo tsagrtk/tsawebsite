@@ -27,7 +27,6 @@ nav{
 header{
   background-color:rgba(47,79,79,0.4);
   margin-top:-10px;
-  padding:35px;
   position:fixed;
   width:100%;
 }
@@ -75,9 +74,6 @@ nav a, .dropdown {
   color:white;
   padding:10px;
 }
-nav a{
-  margin-right:-4px;
-}
 
 .show {
        display:block;
@@ -86,12 +82,13 @@ h1.head{
 	text-align: "center"; 
 	color: white;
 }
-a {
-	text-decoration: none;
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right:-4px;
 }
-a:hover {
-    color: white;
-	background-color: #00dcfb;
+nav a:hover {
+  background-color: #00dcfb;
 }
 button	{
 	text-decoration: none;
@@ -99,7 +96,6 @@ button	{
 	color: white;
 	padding: 0;
 	border: none;
-	background: none;
 	display:inline-block;
 }
 button:hover	{
