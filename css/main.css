@@ -68,7 +68,7 @@ article{
     display: block !important;
 }
 
-nav a, .dropdown {
+nav a{
   text-decoration: none;
   border:none;
   color:white;
