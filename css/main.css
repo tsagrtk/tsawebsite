@@ -23,15 +23,17 @@ nav{
   text-align: left;
   float:right;
   margin:0px;
+  margin-left:
 }
 header{
   background-color:rgba(47,79,79,0.4);
   position:fixed;
   width:100%;
   padding:10px 0;
+  padding-left:30px;	 
 }
 .background{
-	padding:280px;
+	padding:276.2px;
 }
 #title{
   color:white;
