@@ -92,7 +92,9 @@ nav a {
   margin-right:-4px;
 }
 nav a:hover {
-  background-color: #00dcfb;
+  background-color:rgba(0,220,251,0.6);
+  -webkit-transition: background-color 2s; /* Safari */
+  transition: background-color 2s;
 }
 button	{
 	text-decoration: none;
