@@ -68,8 +68,9 @@ article{
     display:block !important;
 }
 
-.dropdown-content:hover {
-      background-color:rgba(0,220,251,0.6);	
+.dropdown-content:hover a{
+      background-color:rgba(0,220,251,0.6);
+      padding:10px;
 }
 .dropdown:hover .dropdown-content {
     position:absolute;
