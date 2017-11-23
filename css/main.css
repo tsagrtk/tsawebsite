@@ -50,11 +50,12 @@ article{
 }
 .dropdown-content {
     display: none;
-    background-color: 0,220,251,0.6);
+    background-color: (0,220,251,0.6);
+   -webkit-transition: background-color 2s; /* Safari */
+    transition: background-color 2s;
     min-width: 160px;
     z-index: 1;
-    -webkit-transition: background-color 2s; /* Safari */
-    transition: background-color 2s;
+
 }
 
 .dropdown-content a {
