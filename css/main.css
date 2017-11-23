@@ -50,9 +50,11 @@ article{
 }
 .dropdown-content {
     display: none;
-    background-color: #58c0ff;
+    background-color: 0,220,251,0.6);
     min-width: 160px;
     z-index: 1;
+    -webkit-transition: background-color 2s; /* Safari */
+    transition: background-color 2s;
 }
 
 .dropdown-content a {
@@ -93,8 +95,8 @@ nav a {
 }
 nav a:hover {
   background-color:rgba(0,220,251,0.6);
-  -webkit-transition: background-color 2s; /* Safari */
-  transition: background-color 2s;
+  -webkit-transition: background-color 1s; /* Safari */
+  transition: background-color 1s;
 }
 button	{
 	text-decoration: none;
