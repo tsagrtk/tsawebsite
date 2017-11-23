@@ -58,6 +58,7 @@ article{
 .glyphicons-chevron-down{
     position:fixed;
     margin-bottom:50px;
+    z-index:1000;
 }
 .dropdown-content a {
     color: white;
