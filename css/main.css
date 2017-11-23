@@ -68,10 +68,10 @@ article{
     display:block !important;
 }
 
-a.dropdown-content:hover{
-      background-color:rgba(0,220,251,0.6);
-      padding:10px;
-}
+
+.dropdown:hover {    background-color:rgba(0,220,251,0.6);
+      padding:10px;}
+
 .dropdown:hover .dropdown-content {
     position:absolute;
     display: block !important;
