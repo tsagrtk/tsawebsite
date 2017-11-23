@@ -50,7 +50,7 @@ article{
 }
 .dropdown-content {
     display: none;
-    background-color: (0,220,251);
+    background-color:#00dcfb;
     min-width: 160px;
     z-index: 1;
 
