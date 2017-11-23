@@ -14,14 +14,6 @@ html,body{
   background-size: cover;
   margin:0;
 }
-#iconhomepc{
-    margin: auto;
-    display: block;
-    width: 90%
-}
-  text-align:center; 
-  margin:0px;
-}
 nav{
   text-align: left;
   float:right;
@@ -117,4 +109,9 @@ button:hover	{
 }
 .drop	{
 	display: block;
+}
+#iconhomepc{
+    margin: auto;
+    display: block;
+    width: 90%;
 }
