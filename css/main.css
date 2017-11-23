@@ -65,7 +65,7 @@ article{
 .dropdown > a{
     display:block !important;
 }
-.dropdown:hover {background-color: #00dcfb}
+
 
 .dropdown:hover .dropdown-content {
     position:absolute;
