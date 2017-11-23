@@ -51,7 +51,7 @@ article{
 .dropdown-content {
     display: none;
     background-color: (0,220,251,0.6);
-   -webkit-transition: background-color 2s; /* Safari */
+    -webkit-transition: background-color 2s; /* Safari */
     transition: background-color 2s;
     min-width: 160px;
     z-index: 1;
@@ -67,12 +67,16 @@ article{
 }
 .dropdown > a{
     display:block !important;
+    background-color: (0,220,251,0.6);
+    -webkit-transition: background-color 2s; /* Safari */
+    transition: background-color 2s;
 }
 
 
 .dropdown:hover .dropdown-content {
     position:absolute;
     display: block !important;
+	
 }
 
 nav a{
