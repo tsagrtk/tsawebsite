@@ -59,6 +59,7 @@ article{
 .dropdown-content a {
     color: white;
     text-decoration: none;
+	
 }
 .dropdown{
     display:inline-block;
@@ -67,7 +68,9 @@ article{
     display:block !important;
 }
 
-
+.dropdown-content:hover {
+      background-color:rgba(0,220,251,0.6);	
+}
 .dropdown:hover .dropdown-content {
     position:absolute;
     display: block !important;
