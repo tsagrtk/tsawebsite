@@ -55,7 +55,10 @@ article{
     z-index: 1;
 
 }
-
+.glyphicons-chevron-down{
+    position:fixed;
+    margin-bottom:50px;
+}
 .dropdown-content a {
     color: white;
     text-decoration: none;
