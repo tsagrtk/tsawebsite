@@ -13,11 +13,11 @@ html,body{
            padding-top: 150px;
            text-align: center;
            z-index: 0;
-    background: red; /* For browsers that do not support gradients */    
-    background: -webkit-linear-gradient(left top, #0000FF, #4CA64C); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(bottom right, #0000FF, #4CA64C); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(bottom right, #0000FF, #4CA64C); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to bottom right, #0000FF, #4CA64C); /* Standard syntax (must be last) */
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left,rgba(255,0,0,0),rgba(255,0,0,1)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(right,rgba(255,0,0,0),rgba(255,0,0,1)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(right,rgba(255,0,0,0),rgba(255,0,0,1)); /*Fx 3.6-15*/
+  background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); /*Standard*/
      }
 nav{
   text-align: left;
