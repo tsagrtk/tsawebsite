@@ -4,16 +4,21 @@
 html,body{
   width:100%;
   height:100%;
-  margin: 0px;
   padding: 0px;
-  background-color: #58c0ff;
-  background: url(/tsawebsite/sky-2953707_1920.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   margin:0;
 }
+
+#background{
+           height: 720px;
+           padding-top: 150px;
+           text-align: center;
+           z-index: 0;
+    background: red; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left top, #0000FF, #4CA64C); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #0000FF, #4CA64C); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #0000FF, #4CA64C); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #0000FF, #4CA64C); /* Standard syntax (must be last) */
+     }
 nav{
   text-align: left;
   float:right;
@@ -43,7 +48,7 @@ article{
   top: 30%;
   width:auto;
   padding:15px;
-  background-color: white;
+  background-color: #c9c9c9;
 }
 .article1{
 	margin-top:380px;
