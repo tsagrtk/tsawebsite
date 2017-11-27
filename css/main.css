@@ -81,13 +81,6 @@ article{
 	
 }
 
-nav a{
-  text-decoration: none;
-  border:none;
-  color:white;
-  padding:10px;
-}
-
 .show {
        display:block;
 }
@@ -99,11 +92,12 @@ nav a {
   color: white;
   text-decoration: none;
   margin-right:-4px;
+  padding:10px;
+  -webkit-transition: background-color 1s; /* Safari */
+  transition: background-color 1s;
 }
 nav a:hover {
   background-color:rgba(0,220,251,0.6);
-  -webkit-transition: background-color 1s; /* Safari */
-  transition: background-color 1s;
 }
 button	{
 	text-decoration: none;
