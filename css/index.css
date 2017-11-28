@@ -121,3 +121,6 @@ button:hover	{
 .drop	{
 	display: block;
 }
+#head	{
+	font-size:300%;
+}
