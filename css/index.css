@@ -9,16 +9,19 @@ html,body{
 }
 
 #background{
-           height: 720px;
-           padding-top: 150px;
-           text-align: center;
-           z-index: 0;
- 	 background: gray; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(lightseagreen, rgba(47,79,79,0.4)); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(lightseagreen, rgba(47,79,79,0.4)); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(lightseagreen, rgba(47,79,79,0.4)); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(lightseagreen, rgba(47,79,79,0.4)); /* Standard syntax */
-     }
+    height: 720px;
+    text-align: center;
+    z-index: 0;
+    padding:276.2px;
+    background-color: rgba(135,206,235,0.2);
+    color:white;
+    text-align:center;
+    background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(lightseagreen, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(lightseagreen, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(lightseagreen, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(lightseagreen, white); /* Standard syntax */
+}
 nav{
   text-align: left;
   float:right;
@@ -31,12 +34,6 @@ header{
   position:fixed;
   width:100%;
   padding:10px 0;
-}
-.background{
-  padding:276.2px;
-  background-color: rgba(135,206,235,0.2);
-  color:white;
-  text-align:center;
 }
 #title{
   color:white;
