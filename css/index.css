@@ -9,17 +9,12 @@ html,body{
 }
 
 #background{
+    background-img:url("Server.jpeg");	
     text-align: center;
     z-index: 0;
     padding:276.2px;
-    background-color: rgba(135,206,235,0.2);
-    color:white;
-    text-align:center;
-    background: white; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(lightseagreen, white); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(lightseagreen, white); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(lightseagreen, white); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(lightseagreen, white); /* Standard syntax */
+    background-size:cover;
+    background-repeat:no-repeat;
 }
 nav{
   text-align: left;
