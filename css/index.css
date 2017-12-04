@@ -30,6 +30,9 @@ header{
   width:100%;
   padding:10px 0;
 }
+#head,#head2{
+  color:white;
+}
 #title{
   color:white;
   margin:0px;
