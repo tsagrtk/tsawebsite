@@ -30,7 +30,7 @@ header{
   width:100%;
   padding:10px 0;
 }
-#head,#head2{
+#head{
   color:white;
 }
 #title{
@@ -118,7 +118,4 @@ button:hover	{
 }
 #head	{
 	font-size:300%;
-}
-#head2	{
-	font-size:200%;
 }
