@@ -15,6 +15,7 @@ html,body{
     padding:276.2px;
     background-size:cover;
     background-repeat:no-repeat;
+    background-position: center;
 }
 nav{
   text-align: left;
