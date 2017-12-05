@@ -13,7 +13,6 @@ html,body{
     text-align: center;
     z-index: 0;
     padding:276.2px;
-    width:100%;
     background-repeat:no-repeat;
     background-position: center;
 }
@@ -21,6 +20,7 @@ nav{
   text-align: left;
   float:right;
   margin:0px;
+width:100%;
   display:inline-block;
   margin-right: 10px;
 }
