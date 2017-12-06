@@ -95,7 +95,7 @@ nav a {
   color: white;
   text-decoration: none;
   margin-right:-4px;
-  padding:20 15px;
+  padding:20px 15px;
   -webkit-transition: background-color 0.5s; /* Safari */
   transition: background-color 0.5s;
 }
