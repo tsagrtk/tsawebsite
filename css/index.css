@@ -9,14 +9,14 @@ html,body{
 }
 
 #background{
-    background-image:url("Server.jpeg");	
+    background-image:url("bacgroundimage.gif");	
     text-align: center;
     z-index: 0;
     padding:200px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-color:white;
+    background-color:#104E8B;
 }
 nav{
   text-align: left;
