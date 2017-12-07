@@ -9,7 +9,7 @@ html,body{
 }
 
 #background{
-    background-image:url("backgroundimage.gif");	
+    background-image:url("server.jpeg")/*("backgroundimage.gif")*/;	
     text-align: center;
     z-index: 0;
     padding:250px;
