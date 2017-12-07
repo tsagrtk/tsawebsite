@@ -9,10 +9,10 @@ html,body{
 }
 
 #background{
-    background-image:url("bacgroundimage.gif");	
+    background-image:url("backgroundimage.gif");	
     text-align: center;
     z-index: 0;
-    padding:200px;
+    padding:250px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
