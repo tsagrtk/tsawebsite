@@ -9,45 +9,6 @@
     <script type="text/javascript" src="js/main.js"></script>
 	<link rel="icon" href="cloudicon.png" type="image/gif" sizes="16x16">  
     <title>Home</title>
-	  <style>
-		  .read-more-state {
-  display: none;
-}
-
-.read-more-target {
-  opacity: 0;
-  max-height: 0;
-  font-size: 0;
-  transition: .25s ease;
-}
-
-.read-more-state:checked ~ .read-more-wrap .read-more-target {
-  opacity: 1;
-  font-size: inherit;
-  max-height: 999em;
-}
-
-.read-more-state ~ .read-more-trigger:before {
-  content: 'Show more';
-}
-
-.read-more-state:checked ~ .read-more-trigger:before {
-  content: 'Show less';
-}
-
-.read-more-trigger {
-  cursor: pointer;
-  display: inline-block;
-  padding: 0 .5em;
-  color: #666;
-  font-size: .9em;
-  line-height: 2;
-  border: 1px solid #ddd;
-  border-radius: .25em;
-}
-
-
-	  </style>
   </head>
   <body>
 <header>
@@ -91,9 +52,6 @@
 	</div>
     <article>
       <h1>Introduction</h1>
-<div>
-	<div class="read-more-wrap">
-	 <input type="checkbox" class="read-more-state" id="post-2"/>
       <p>
         Cloud is where a server, like your email, stores the files that make that server work.
         It is not actually in your computer. Instead, it is in what the experts call, The Cloud.
@@ -105,9 +63,11 @@
         which is considered to be a lot. Also, the technology in the iPhone 6 is more advanced than the technology used 
         to send Neil Armstrong to the moon, so imagine the capabilities of Cloud. 
       </p>
-      
-	<h1 class="read-more-target">The components in client side:</h1>
-	<ul class="read-more-target">
+    </article>
+	  <br>
+    <article>
+	<h1>The components in client side:</h1>
+	<ul>
 		<li>A client
 			<ul><li>A client is the person who uses the cloud.</li></ul>
 		</li> 
@@ -121,20 +81,14 @@
 			<ul><li>This is basically just storing things on the internet or a hard drive. With cloud computing, you can store something in one place and access it on another device.</li></ul>
 		</li>
 	</ul>
-	<h1 class="read-more-target">The components in server side:</h1>
-	<ul class="read-more-target">
+	<h1>The components in server side:</h1>
+	<ul>
 		<li>Devices that run the apps
 			<ul><li>To store something that is not physical, you need to have a technological device like a hardrive or a computer.</li></ul>
 		</li>
 		<li>Data Storage Systems
 			<ul><li>This is very important because The Cloud is basically this huge data storage system.</li></ul>
-	    </ul>
-	     
-	</div>
- <label for="post-2" class="read-more-trigger"></label>
-</div>
+	</ul>
     </article>
-
-
   </body>
 </html>
