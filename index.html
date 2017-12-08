@@ -89,6 +89,31 @@
 		<li>Data Storage Systems
 			<ul><li>This is very important because The Cloud is basically this huge data storage system.</li></ul>
 	</ul>
+	    
+	    <div class="item">
+
+    This is the first part of the text, the part that will be seen originally.<br/>
+    <a href="#" class="read_more">Read More</a><br/>
+
+    <span class="more_text">
+        This is the extra text, that will be shown after pressing the link above.
+    </span>
+
+</div>
+
     </article>
+	  <script>
+	  $(function(){ /* to make sure the script runs after page load */
+
+    $('a.read_more').click(function(event){ /* find all a.read_more elements and bind the following code to them */
+
+        event.preventDefault(); /* prevent the a from changing the url */
+        $(this).parents('.item').find('.more_text').show(); /* show the .more_text span */
+
+    });
+
+});
+
+	  </script>
   </body>
 </html>
