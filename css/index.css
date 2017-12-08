@@ -46,8 +46,11 @@ article{
   top: 30%;
   width:auto;
   padding:15px;
-  background-color: white;
+  background-color: #f2f3f4;
   font-family: 'Monda', sans-serif;
+}
+br{
+background-color:#f2f3f4;
 }
 .article1{
 	margin-top:380px;
