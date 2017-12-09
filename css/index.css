@@ -1,5 +1,5 @@
 *{
-  font-family:'Monda', sans-serif !important;
+  font-family:arial;
 }
 
 html,body{
@@ -8,7 +8,12 @@ html,body{
   padding: 0px;
   margin:0;
 }
-
+h1{
+ font-family:'Monda', sans-serif !important;
+}
+p{
+font-family:'Monda', sans-serif !important;
+}
 #background{
     background-image: url("Server.jpeg");	
     text-align: center;
