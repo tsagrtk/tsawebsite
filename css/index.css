@@ -30,6 +30,7 @@ header{
   position:fixed;
   padding:0 0;
   width:100%;
+  z-index:1000;
 }
 #head{
   color:white;
