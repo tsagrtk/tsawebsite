@@ -22,7 +22,6 @@ html,body{
 }
 nav{
   display: block;
-  
 
 }
 header{
@@ -74,10 +73,10 @@ background-color:#f2f3f4;
 	
 }
 .dropdown{
-    display:inline-block;
+    display: block;
 }
 .dropdown > a{
-    display:block !important;
+    display: block !important;
 }
 
 
@@ -119,7 +118,7 @@ button	{
 	color: white;
 	padding: 0;
 	border: none;
-	display:inline-block;
+	display:block;
 }
 button:hover	{
 		background-color: #00dcfb;
