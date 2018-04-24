@@ -21,11 +21,8 @@ html,body{
     background-color: white;
 }
 nav{
-  text-align: left;
-  float:right;
-  margin:0px;
-  display:block;
-  margin-right: 10px;
+  display: block;
+  
 
 }
 header{
