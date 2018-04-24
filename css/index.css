@@ -138,3 +138,6 @@ button:hover	{
 	font-size:300%;
 }
 
+dt{
+    text-decoration:underline;
+}
