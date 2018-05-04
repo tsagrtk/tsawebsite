@@ -14,7 +14,6 @@ html,body{
 #background{
     background-image: url("Server.jpeg");	
     text-align: center;
-    width:100%;
     height:100%;
     z-index: 0;
     padding:150px;
