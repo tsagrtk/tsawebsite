@@ -12,14 +12,14 @@ html,body{
 }
 
 #background{
-    background-image: url("Server.jpeg");	
+    background-color: black;
+    
     text-align: center;
     z-index: 0;
     padding:150px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: grey;
 }
 nav{
   text-align: left;
